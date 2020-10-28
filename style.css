@@ -1,0 +1,101 @@
+body{
+	margin: 0;
+	padding: 30px;
+	font-family: sans-serif;
+}
+
+.header{
+	padding: 15px;
+	margin: 20px 5px 0px 700px;
+	position: relative;
+}
+.Card_Green{
+	color: green;
+	margin-left: 20px;
+}
+.card{
+	padding: 30px;
+	margin: 10px;
+	border: 2px solid #ccc;
+}
+
+.card-title{
+	width: 250px;
+	text-align: center;
+	border-bottom: 2px solid blue;
+}
+
+.button-body{
+	width: 100%;
+	padding: 20px 30px 0px 100px; 
+	/*background-color: red;*/
+}
+.button-card{
+	width: 30%; 
+	padding: 25px;
+	font-size: 17px;
+	margin: 14px 200px 0px 10px;  
+	border:none;
+	box-sizing: border-box;
+}
+
+.button-card:hover{
+	border:2px solid #17B71C; 
+}
+
+input[type=text],
+input[type=number],
+input[type=email],
+input[type=date],
+textarea{
+	width: 100%;
+	margin: 8px 0;
+	padding: 10px 0px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+
+input[type=date]{
+	width: 100%;
+	margin: 8px 0;
+	padding: 10px 10px;
+}
+
+input[type=submit]{
+	width: 200px;
+	background-color: green;
+	color: #ffffff;
+	font-size: 17px; 
+	padding: 14px 20px;
+	margin: 40px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover{
+	background-color: #17B71C ;
+}
+
+.form-group{
+	padding: 10px 30px 30px 0px;
+}
+
+.form-group label{
+	margin-right: 30px;
+}
+
+.form-group input[type=radio]{
+	width: 40px;
+	margin: 20px 0px 0px 30px;
+	padding: 20px;
+	font-size: 10px;
+}
+
+.col-md3{
+	width:40%;
+	margin: 20px 100px 0px 0px;
+	float: left;
+}
